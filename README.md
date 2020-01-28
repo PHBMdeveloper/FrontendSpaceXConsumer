@@ -12,7 +12,7 @@ Elaborar um Frontend em React que consuma a "Web browsable API SpaceX Consumer" 
 ## 👨🏼‍💻 Deploy no Heroku
 **Experimente o app no link abaixo.**
 
-[https://api-spacex-consumer.herokuapp.com/](https://api-spacex-consumer.herokuapp.com/)
+[https://frontend-spacex-consumer.herokuapp.com/](https://frontend-spacex-consumer.herokuapp.com/)
 
 ## 👨🏼‍💻 Desenvolvedor
 
@@ -20,46 +20,39 @@ Elaborar um Frontend em React que consuma a "Web browsable API SpaceX Consumer" 
 
 ## 🚀 Tecnologias
 
-- ⚡ [Django](https://www.djangoproject.com/) — A web framework for Python.
-- 💾 [Django REST framework](https://www.django-rest-framework.org/) — Toolkit Web APIs for Python.
+- ⚡ [NodeJS](https://nodejs.org/en/) — O Node.js® é um mecanismo para execução JavaScript independente usando JavaScript V8 do Chrome.
+- 💾 [React](https://pt-br.reactjs.org/) — Uma biblioteca JavaScript para criar interfaces de usuário.
 
 ## ✋🏻 Pré-requisitos
 
-- [Python](https://www.python.org/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 🔥 Instalação e execução
 
 1. Faça um clone desse repositório;
-2. Entre na pasta `cd ApiSpaceXConsumer`;
-3. Rode `python -m venv venv` para criar a Virtual Environment;
-4. Rode `\env\Scripts\activate` para ativar a Virtual Environment;
-5. Rode `pip install -r requirements-dev.txt` para instalar as dependências;
-6. Rode `python manage.py migrate` para fazer as migrações;
-8. Rode `python manage.py createsuperuser` escolha um nome de usuário e senha;
-7. Rode `python manage.py runserver` para subir o servidor de desenvolvimento;
-
-## 📚 Testes
-
-1. Rode `python manage.py test` para os testes.
+2. Entre na pasta `cd FrontendSpaceXConsumer`;
+3. Rode `npm install` para instalar dependencias;
+4. Rode `npm start` para subir o projeto;
 
 ## 📚 Implementação
 
-O projeto Django chamado ApiSpaceXConsumer é o local onde ficam as configurações básicas do projeto:
+O projeto em React chamado FrontendSpaceXConsumer é a pasta raiz do projeto:
 
-`Pasta => ApiSpaceXConsumer `
-- `urls.py`
-- `settings.py`
+`Pasta => FrontendSpaceXConsumer`
+- `Pasta => src`
+- `Pasta => public`
 
-Em seguida, inicio um app Django chamado `api` no qual é encontrado a regra de negocio da api para a criação do db:
+Na pasta src, temos os componentes dividido em home e template:
 
-`Pasta => api `
-- `admin.py` 
-- `models.py`
+`Pasta => FrontendSpaceXConsumer => src `
+- `Pasta => home` (Regras para consumir a "ApiSpaceXConsumer")
+- `Pasta => template` (Estrutura visual do projeto junto com estilo)
 
-Na pasta `core` encontramos os arquivos utilizados pelo Django Rest Framework, expondo a api:
+Na pasta `main` encontramos os arquivos de rotas do projeto junto com App.jsx que é o arquivo raiz:
 
-`Pasta => api => core`
-- `serializers.py` 
-- `viewsets.py`
+`Pasta => main`
+- `App.jsx` 
+- `Routes.jsx`
+- `...`
 
 ---
