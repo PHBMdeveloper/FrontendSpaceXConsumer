@@ -46,7 +46,7 @@ Na pasta src, temos os componentes dividido em home e template:
 
 `Pasta => FrontendSpaceXConsumer => src `
 - `Pasta => home` (Regras para consumir a "ApiSpaceXConsumer")
-- `Pasta => template` (Estrutura visual do projeto junto com estilo)
+- `Pasta => template` (Estrutura visual do projeto junto com os estilos)
 
 Na pasta `main` encontramos os arquivos de rotas do projeto junto com App.jsx que é o arquivo raiz:
 
