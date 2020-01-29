@@ -140,7 +140,7 @@ class Ultimolancamento extends Component {
                         {<ul><span>mean_anomaly: <span className="text-muted">{this.state.orbit_params.mean_anomaly ? this.state.orbit_params.mean_anomaly : 'null'}</span> </span></ul>}
                         {<ul><span>uid: <span className="text-muted">{this.state.payloads.uid ? this.state.payloads.uid : 'null'}</span> </span></ul>}
                       </ul>
-                      <span className="text-secundary">fairings: <span className="text-muted">{this.state.fairings ? this.state.fairings : 'null'}</span></span>
+                      {/* <span className="text-secundary">fairings: <span className="text-muted">{this.state.fairings ? this.state.fairings : 'null'}</span></span> */}
                       {/* {<ul><span>reused: <span className="text-muted">{this.state.fairings.reused ? this.state.fairings.reused : 'null'}</span> </span></ul>} */}
                       {/* {<ul><span>recovery_attempt: <span className="text-muted">{this.state.fairings.recovery_attempt ? this.state.fairings.recovery_attempt : 'null'}</span> </span></ul>} */}
                       {/* {<ul><span>recovered: <span className="text-muted">{this.state.fairings.recovered ? this.state.fairings.recovered : 'null'}</span> </span></ul>} */}
